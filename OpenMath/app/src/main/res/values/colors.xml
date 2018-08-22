@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Barre du haut -->
+    <color name="colorPrimaryDark">#7b3030</color>
+    <!-- toolBar -->
+    <color name="colorPrimary">#873046</color>
+    <!-- Le fond(background) -->
+    <color name="colorBackground">#dcc2da</color>
+    <!-- Le texte -->
+    <color name="colorTexteEcranPrincipale">#000000</color>
+    <color name="colorTexteEcranJeu">#ffffff</color>
+    <!-- Bouton -->
+    <color name="colorBoutonTexte">#000</color>
+    <color name="colorBoutonFond">#fff</color>
+    <!-- checkbock,textfield quelque chose comme sa  #FF4081-->
+    <color name="colorAccent">#26c714</color>
+</resources>

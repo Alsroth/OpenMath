@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    android:background="@drawable/ecran_jeu_nuage_sombre"
+    tools:context="com.example.openmath.openmath.controleur.ScoreActivite"
+    >
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scrollView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/texteScore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Les Scores"
+        android:textSize="@dimen/titreTaille"
+        android:textColor="@color/colorTexteEcranJeu"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteY="57dp" />
+
+
+
+    <TextView
+        android:id="@+id/dernierscore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/titreTaille"
+        android:textColor="@color/colorTexteEcranJeu"
+        android:layout_marginTop="25dp"
+        android:text="Dernier Score "
+        android:layout_gravity="center">
+    </TextView>
+
+    <TextView
+        android:id="@+id/texteDernierscore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/texteTaille"
+        android:textColor="@color/colorTexteEcranJeu"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:text="Votre Dernier Score Est :"
+        />
+
+
+
+    <TextView
+        android:id="@+id/meilleurscore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/titreTaille"
+        android:textColor="@color/colorTexteEcranJeu"
+        android:layout_marginTop="25dp"
+        android:text="Meilleur Score "
+        android:layout_gravity="center">
+    </TextView>
+
+    <TextView
+        android:id="@+id/texteMeilleurscore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/texteTaille"
+        android:textAlignment="center"
+        android:textColor="@color/colorTexteEcranJeu"
+        android:layout_marginTop="20dp"
+        android:text="Le Meilleur Score Est :"
+        />
+
+    <Button
+        android:id="@+id/boutonRejouer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/boutonHauteurMoyenneTaille"
+        android:minWidth="@dimen/boutonLargeurMoyenneTaille"
+        android:textSize="@dimen/texteTaillePetiteBouton"
+        android:textColor="@color/colorBoutonTexte"
+        android:background="@color/colorBoutonFond"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:text="Rejouer" />
+
+</LinearLayout>

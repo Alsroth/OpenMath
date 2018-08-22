@@ -1,0 +1,7 @@
+OPENMATH Version 5
+
+L'interface jeu se décompose en deux activités: entrainement et test.
+L'activité entrainement aura la même fonction que jeu dans les version précédente tandis que l'activité test aura un compte à rebours lancé et consistera à faire valider une activité.
+
+Le Menu s'enrichie avec deux autres thématiques: Mesure et géométrie.
+On ajoute l'interface préférence pour voir le score du jour et la possibilité de se déconnecter.

@@ -1,0 +1,7 @@
+OPENMATH Version4
+
+Dans cette version on enrichie le Menu avec une nouvelle thématique "Numération" et on ajoute des activités aux deux thématiques de menu.
+
+	Menu:
+		- Calcul: activité 1 , activité 2 , activité 3 , activité 4
+		- Numération: activité 1 , activité 2 , activité 3 , activité 4

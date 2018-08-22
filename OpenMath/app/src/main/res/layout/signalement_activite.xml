@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    android:background="@drawable/ecran_principale_colore_rose"
+    tools:context="com.example.openmath.openmath.controleur.SignalementActivite"
+    >
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scrollView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/texteSignalement"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Signalement"
+        android:textSize="@dimen/titreTaille"
+        android:textColor="@color/colorTexteEcranPrincipale"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteY="57dp" />
+
+    <TextView
+        android:id="@+id/texteSignalement2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/texteTaille"
+        android:textColor="@color/colorTexteEcranPrincipale"
+        android:layout_marginTop="20dp"
+        android:text="  Veuillez entrer les informations de votre signalement :"
+        />
+
+    <TextView
+        android:id="@+id/titre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/texteTaille"
+        android:textColor="@color/colorTexteEcranPrincipale"
+        android:layout_marginTop="25dp"
+        android:text="  Titre:"
+        />
+
+    <EditText
+        android:id="@+id/champtitre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/texteTaille"
+        android:textColor="@color/colorTexteEcranPrincipale"
+        android:hint=" Entrer le titre du votre signalement"/>
+
+    <TextView
+        android:id="@+id/Description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/texteTaille"
+        android:textColor="@color/colorTexteEcranPrincipale"
+        android:layout_marginTop="25dp"
+        android:text="  Description:"
+        />
+
+    <EditText
+        android:id="@+id/champDescription"
+        android:layout_width="match_parent"
+        android:layout_height="168dp"
+        android:layout_marginTop="20dp"
+        android:hint="Ecrivez la description de votre signalement "
+        android:padding="60dp"
+        android:textSize="17dp" />
+
+    <Button
+        android:id="@+id/boutonSignalement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/boutonHauteurMoyenneTaille"
+        android:minWidth="@dimen/boutonLargeurMoyenneTaille"
+        android:textSize="@dimen/texteTailleMoyenneBouton"
+        android:textColor="@color/colorBoutonTexte"
+        android:background="@color/colorBoutonFond"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="send report !" />
+
+</LinearLayout>

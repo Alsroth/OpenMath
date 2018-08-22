@@ -1,0 +1,4 @@
+OPENMATH   Version3
+
+Cette version à pour objectif d'introduire la gestion client-serveur, avec une interface de bienvenue composé des boutons d'identifications et d'inscription. 
+C'est boutons mèneront respectivement à leur interfaces (identifications et inscription) composé de champs de saisie pour chaque composantes (nom,prenom,mails,login,mot de passe) et d'un bouton de validation.

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/ecran_principale_colore_rose"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.openmath.openmath.controleur.IdentificationActivite">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scrollView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/phraseDeBienvenue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/titreTaille"
+        android:textColor="@color/colorTexteEcranPrincipale"
+        android:text="Phrase de Bienvenue"
+        android:gravity="center"
+        android:padding="10dp"
+        android:layout_margin="20dp"
+
+        >
+    </TextView>
+
+
+        <TextView
+            android:id="@+id/textLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/texteTaille"
+            android:textColor="@color/colorTexteEcranPrincipale"
+            android:layout_marginTop="25dp"
+            android:text="Login:"
+            >
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/champLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/texteTaille"
+            android:textColor="@color/colorTexteEcranPrincipale"
+            android:hint="Entrer votre nom M Etudiant"/>
+
+
+
+
+        <TextView
+            android:id="@+id/textMDP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/texteTaille"
+            android:textColor="@color/colorTexteEcranPrincipale"
+            android:layout_marginTop="25dp"
+            android:text="Mot de passe:">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/champMDP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/texteTaille"
+            android:textColor="@color/colorTexteEcranPrincipale"
+            android:hint="Entrer vote mot de passe"/>
+
+
+    <Button
+        android:id="@+id/boutonConnexion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/boutonHauteurGrandeTaille"
+        android:minWidth="@dimen/boutonLargeurGrandeTaille"
+        android:textSize="@dimen/texteTailleGrandBouton"
+        android:textColor="@color/colorBoutonTexte"
+        android:background="@color/colorBoutonFond"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center_horizontal"
+        android:text="se connecter"/>
+
+
+
+</LinearLayout>
+
+
+
+
+

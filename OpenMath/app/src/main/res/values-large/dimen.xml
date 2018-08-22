@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- TextViews -->
+    <dimen name="titreTaille">30dp</dimen>
+    <dimen name="texteTaille">20dp</dimen>
+    <dimen name="sousTitreTaille">18sp</dimen>
+
+    <!-- Bouton -->
+    <dimen name="boutonHauteurGrandeTaille">200dp</dimen>
+    <dimen name="boutonLargeurGrandeTaille">250dp</dimen>
+    <dimen name="boutonHauteurMoyenneTaille">75dp</dimen>
+    <dimen name="boutonLargeurMoyenneTaille">200dp</dimen>
+    <dimen name="boutonHauteurPetiteTaille">100dp</dimen>
+    <dimen name="boutonLargeurPetiteTaille">150dp</dimen>
+    <dimen name="texteTailleGrandBouton">15sp</dimen>
+    <dimen name="texteTailleMoyenneBouton">10sp</dimen>
+    <dimen name="texteTaillePetiteBouton">5sp</dimen>
+</resources>

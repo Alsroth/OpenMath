@@ -1,0 +1,3 @@
+OPENMATH Version7
+
+Version bonus: On intègre la possibilité de se connecter à partir des réseaux sociaux (Facebook , google plus)

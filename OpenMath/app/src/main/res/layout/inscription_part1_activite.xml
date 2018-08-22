@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.openmath.openmath.controleur.InscriptionPart1Activite"
+    android:background="@drawable/ecran_principale_colore_rose"
+    tools:layout_editor_absoluteX="20dp"
+    tools:layout_editor_absoluteY="20dp">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scrollView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/texteInscription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/titreTaille"
+        android:textColor="@color/colorTexteEcranPrincipale"
+        android:gravity="center"
+        android:text="Inscription"
+
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteY="57dp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginVertical="40dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/texteLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/texteTaille"
+            android:textColor="@color/colorTexteEcranPrincipale"
+            android:text="Login:" />
+
+        <EditText
+            android:id="@+id/champLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/texteTaille"
+            android:textColor="@color/colorTexteEcranPrincipale"
+            android:hint="Entrez votre login"
+            />
+
+        <TextView
+            android:id="@+id/texteMDP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/texteTaille"
+            android:textColor="@color/colorTexteEcranPrincipale"
+            android:layout_marginTop="20dp"
+            android:text="Mot de passe :"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="49dp" />
+
+        <EditText
+            android:id="@+id/champMDP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/texteTaille"
+            android:textColor="@color/colorTexteEcranPrincipale"
+            android:hint="Entrez votre mot de passe"
+             />
+
+
+        <EditText
+            android:id="@+id/champMDPVerification"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/texteTaille"
+            android:textColor="@color/colorTexteEcranPrincipale"
+            android:hint="Confirmer votre mot de passe"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp">
+
+
+        <Button
+            android:id="@+id/boutonPrecedent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/boutonHauteurPetiteTaille"
+            android:minWidth="@dimen/boutonLargeurPetiteTaille"
+            android:textSize="@dimen/texteTaillePetiteBouton"
+            android:textColor="@color/colorBoutonTexte"
+            android:background="@color/colorBoutonFond"
+            android:text="Précedent" />
+
+        <Button
+            android:id="@+id/boutonSuivant"
+            android:minHeight="@dimen/boutonHauteurPetiteTaille"
+            android:minWidth="@dimen/boutonLargeurPetiteTaille"
+            android:textSize="@dimen/texteTaillePetiteBouton"
+            android:textColor="@color/colorBoutonTexte"
+            android:background="@color/colorBoutonFond"
+            android:layout_marginLeft="130dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Suivant" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+
+

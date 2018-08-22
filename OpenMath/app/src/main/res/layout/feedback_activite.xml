@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/ecran_principale_colore_rose"
+    tools:context="com.example.openmath.openmath.controleur.FeedbackActivite">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scrollView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/texteFeedback1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Feedback"
+        android:textSize="@dimen/titreTaille"
+        android:textColor="@color/colorTexteEcranPrincipale"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteY="57dp" />
+
+    <TextView
+        android:id="@+id/texteFeedback2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/texteTaille"
+        android:textColor="@color/colorTexteEcranPrincipale"
+        android:layout_marginTop="20dp"
+        android:text=" Entrez les informations de Feedback a envoyer au developpeur :"
+         />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="302dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/champNom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Entrez votre Nom"
+            android:textSize="@dimen/texteTaille" />
+
+        <EditText
+            android:id="@+id/champEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:hint="Entrez votre Email"
+            android:textSize="@dimen/texteTaille" />
+
+        <EditText
+            android:id="@+id/champSujet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:hint="Entrez votre Sujet"
+            android:textSize="@dimen/texteTaille" />
+
+        <EditText
+            android:id="@+id/champMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:hint="Ecrivez votre Message"
+            android:textSize="@dimen/texteTaille" />
+
+
+        <Button
+            android:id="@+id/boutonFeedback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@color/colorBoutonFond"
+            android:minHeight="@dimen/boutonHauteurMoyenneTaille"
+            android:minWidth="@dimen/boutonLargeurMoyenneTaille"
+            android:text="Envoyer Feedback !"
+            android:textColor="@color/colorBoutonTexte"
+            android:textSize="@dimen/texteTailleMoyenneBouton" />
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

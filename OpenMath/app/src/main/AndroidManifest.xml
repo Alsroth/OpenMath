@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.openmath.openmath">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/open_math_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/open_math_icon_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".controleur.IdentificationActivite"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".controleur.InscriptionPart2Activite"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".controleur.MultiplesChoixActivite"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".controleur.BienvenueActivite"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name=".controleur.OpenMathActivite"
+            android:label="@string/title_activity_open_math"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".controleur.InscriptionPart1Activite"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".controleur.MenuActivite"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".controleur.NiveauxActivite"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".controleur.FeedbackActivite"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".controleur.SaisieReponseActivite"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".controleur.SignalementActivite"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".controleur.ScoreActivite"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".controleur.SettingsActivite"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".controleur.AProposActivite"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".controleur.LevelActivite"
+            android:screenOrientation="portrait" />
+        <activity android:name=".controleur.DefiActivite" />
+        <activity android:name=".controleur.InformationDefiActivite"></activity>
+        <activity android:name=".controleur.ModificationActivite"></activity>
+    </application>
+
+</manifest>

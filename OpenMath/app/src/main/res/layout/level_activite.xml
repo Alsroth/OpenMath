@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#715353"
+    tools:context="com.example.openmath.openmath.controleur.LevelActivite">
+
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scrollView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+
+    <TextView
+        android:id="@+id/texteNiveaux"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Les niveaux de difficulté"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textColor="#fff"
+        android:layout_marginTop="20dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+
+
+    <Button
+        android:id= "@+id/boutonNiveau1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:background="@drawable/boutonlevel"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="Niveau 1"  />
+
+    <Button
+        android:id= "@+id/boutonNiveau2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:background="@drawable/boutonlevel"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+
+        android:text="Niveau 2"  />
+
+
+    <Button
+        android:id= "@+id/boutonNiveau3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:background="@drawable/boutonlevel"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+
+        android:text="Niveau 3"
+        android:clickable="false"/>
+
+
+    <Button
+        android:id= "@+id/boutonNiveau4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:background="@drawable/boutonlevel"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="Niveau 4"
+        android:clickable="false"/>
+
+        android:text="Niveau 4"  />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+    <Button
+        android:id="@+id/boutonPrecedent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="35dp"
+        android:minWidth="80dp"
+        android:textSize="8sp"
+        android:textColor="@color/colorBoutonTexte"
+        android:background="@color/colorBoutonFond"
+        android:text="Précedent" />
+
+    <Button
+        android:id="@+id/boutonMenuA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="35dp"
+        android:minWidth="80dp"
+        android:textSize="8sp"
+        android:textColor="@color/colorBoutonTexte"
+        android:background="@color/colorBoutonFond"
+        android:layout_marginLeft="220dp"
+        android:text="Menu" />
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

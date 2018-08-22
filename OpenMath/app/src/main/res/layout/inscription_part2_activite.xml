@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/ecran_principale_colore_rose"
+    tools:context="com.example.openmath.openmath.controleur.InscriptionPart2Activite"
+    tools:layout_editor_absoluteX="20dp"
+    tools:layout_editor_absoluteY="20dp">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scrollView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/texteInscription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/titreTaille"
+        android:textColor="@color/colorTexteEcranPrincipale"
+        android:gravity="center"
+        android:text="Inscription"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteY="57dp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="5dp"
+        android:layout_marginVertical="5dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="56dp">
+
+        <TextView
+            android:id="@+id/texteNom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/texteTaille"
+            android:textColor="@color/colorTexteEcranPrincipale"
+            android:text="Nom:"
+            tools:layout_editor_absoluteX="49dp"
+            tools:layout_editor_absoluteY="176dp" />
+
+        <EditText
+            android:id="@+id/champNom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/texteTaille"
+            android:textColor="@color/colorTexteEcranPrincipale"
+            android:hint="Entrez votre nom"
+            />
+
+        <TextView
+            android:id="@+id/textePrenom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/texteTaille"
+            android:textColor="@color/colorTexteEcranPrincipale"
+            android:layout_marginTop="20dp"
+            android:text="Prénom:"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="49dp" />
+
+        <EditText
+            android:id="@+id/champPrenom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/texteTaille"
+            android:textColor="@color/colorTexteEcranPrincipale"
+            android:hint="Entrez votre prénom" />
+
+        <TextView
+            android:id="@+id/texteDateDeNaissance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/texteTaille"
+            android:textColor="@color/colorTexteEcranPrincipale"
+            android:layout_marginTop="20dp"
+            android:text="Date de naissance:"
+            tools:layout_editor_absoluteX="49dp"
+            tools:layout_editor_absoluteY="325dp" />
+
+        <EditText
+            android:id="@+id/champDateDeNaissance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/texteTaille"
+            android:textColor="@color/colorTexteEcranPrincipale"
+            android:hint="JJ/MM/AAAA"
+             />
+
+        <TextView
+            android:id="@+id/texteMail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textSize="@dimen/texteTaille"
+            android:textColor="@color/colorTexteEcranPrincipale"
+            android:text="Adresse mail:" />
+
+        <EditText
+            android:id="@+id/champMail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/texteTaille"
+            android:textColor="@color/colorTexteEcranPrincipale"
+            android:hint="adresse@fournisseur.(com/fr)"
+            />
+
+        <Button
+            android:id="@+id/boutonInscrire"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/boutonHauteurGrandeTaille"
+            android:minWidth="@dimen/boutonLargeurGrandeTaille"
+            android:textSize="@dimen/texteTailleGrandBouton"
+            android:textColor="@color/colorBoutonTexte"
+            android:background="@color/colorBoutonFond"
+            android:layout_gravity="center_horizontal"
+            android:text="S'inscrire" />
+
+
+        <Button
+            android:id="@+id/boutonPrecedent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/boutonHauteurPetiteTaille"
+            android:minWidth="@dimen/boutonLargeurPetiteTaille"
+            android:textSize="@dimen/texteTaillePetiteBouton"
+            android:textColor="@color/colorBoutonTexte"
+            android:background="@color/colorBoutonFond"
+            android:text="Précedent" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+
+

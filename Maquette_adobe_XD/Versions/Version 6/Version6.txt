@@ -1,0 +1,9 @@
+OPENMATH Version6
+
+Dans cette version, on ajoute le bouton Feedback à l'activité préférence ainsi qu'une activité feedback. 
+
+Dans cette version toutes les maquettes et IHM sont implémentées.
+
+Voici le lien pour naviguer dans l'application:
+
+https://xd.adobe.com/view/7b655cca-1d2f-4446-b66e-a1ea6548d60a

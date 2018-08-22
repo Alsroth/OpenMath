@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#715353"
+    tools:context="com.example.openmath.openmath.controleur.MultiplesChoixActivite"
+    tools:layout_editor_absoluteX="20dp"
+    tools:layout_editor_absoluteY="20dp">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scrollView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/texteNiveau"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textColor="@color/colorTexteEcranJeu"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="30dp"
+        android:text="Nom niveau"
+        android:layout_gravity="center">
+    </TextView>
+
+    <Button
+        android:id= "@+id/boutonActivite1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/boutonHauteurMoyenneTaille"
+        android:minWidth="@dimen/boutonLargeurMoyenneTaille"
+        android:textSize="15sp"
+        android:fontFamily="casual"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="Activite1"  />
+
+    <Button
+
+        android:id= "@+id/boutonActivite2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/boutonHauteurMoyenneTaille"
+        android:minWidth="@dimen/boutonLargeurMoyenneTaille"
+        android:textSize="15sp"
+        android:textColor="#fff"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:fontFamily="casual"
+        android:textStyle="bold"
+        android:text="Activite2"  />
+
+    <Button
+
+        android:id= "@+id/boutonActivite3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/boutonHauteurMoyenneTaille"
+        android:minWidth="@dimen/boutonLargeurMoyenneTaille"
+        android:textSize="15sp"
+        android:textColor="#fff"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:fontFamily="casual"
+        android:textStyle="bold"
+        android:text="Activite3"  />
+
+    <Button
+        android:id= "@+id/boutonActivite4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/boutonHauteurMoyenneTaille"
+        android:minWidth="@dimen/boutonLargeurMoyenneTaille"
+        android:textSize="15sp"
+        android:textColor="#fff"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:fontFamily="casual"
+        android:textStyle="bold"
+        android:text="Activite4" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+    <Button
+        android:id="@+id/boutonPrecedent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/boutonHauteurPetiteTaille"
+        android:minWidth="@dimen/boutonLargeurPetiteTaille"
+        android:textSize="@dimen/texteTaillePetiteBouton"
+        android:textColor="#000"
+        android:background="@color/colorBoutonFond"
+        android:text="Précedent" />
+
+
+        <Button
+            android:id="@+id/boutonMenuA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="35dp"
+            android:minWidth="80dp"
+            android:textSize="8sp"
+            android:textColor="#000"
+            android:background="@color/colorBoutonFond"
+            android:layout_marginLeft="220dp"
+            android:text="Menu" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
+
+
+

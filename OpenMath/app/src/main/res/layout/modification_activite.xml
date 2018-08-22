@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/ecran_principale_colore_rose"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".controleur.ModificationActivite">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scrollView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/texteModificationCompte"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Modification de Compte "
+        android:textSize="@dimen/titreTaille"
+        android:textColor="@color/colorTexteEcranPrincipale"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteY="57dp" />
+
+
+    <TextView
+        android:id="@+id/texteAncienPseudo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/texteTaille"
+        android:textColor="@color/colorTexteEcranPrincipale"
+        android:layout_marginTop="20dp"
+        android:text=" Votre ancien pseudo :"
+        />
+
+    <EditText
+        android:id="@+id/champancienpseudo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Ancien Pseudo"
+        android:textSize="@dimen/texteTaille" />
+
+    <TextView
+        android:id="@+id/texteNouveauPseudo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/texteTaille"
+        android:textColor="@color/colorTexteEcranPrincipale"
+        android:layout_marginTop="20dp"
+        android:text=" Votre Nouveau pseudo :"
+        />
+
+    <EditText
+        android:id="@+id/champNouveaupseudo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Nouveau Pseudo "
+        android:textSize="@dimen/texteTaille" />
+
+    <TextView
+        android:id="@+id/texteAncienMotdepasse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/texteTaille"
+        android:textColor="@color/colorTexteEcranPrincipale"
+        android:layout_marginTop="40dp"
+        android:text=" Votre ancien Mot de Passe  :"
+        />
+
+    <EditText
+        android:id="@+id/champAncienMotdepasse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Ancien Mot de Passe "
+        android:textSize="@dimen/texteTaille" />
+
+    <TextView
+        android:id="@+id/texteNouveauMotdePasse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/texteTaille"
+        android:textColor="@color/colorTexteEcranPrincipale"
+        android:layout_marginTop="20dp"
+        android:text=" Votre Nouveau Mot de Passe  :"
+        />
+
+    <EditText
+        android:id="@+id/champNouveauMotdePasse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Nouveau Mot de Passe "
+        android:textSize="@dimen/texteTaille" />
+
+
+
+
+    <Button
+        android:id="@+id/boutonConfirmation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorBoutonFond"
+        android:minHeight="@dimen/boutonHauteurMoyenneTaille"
+        android:minWidth="@dimen/boutonLargeurMoyenneTaille"
+        android:text="Confirmer Votre Modification"
+        android:textColor="@color/colorBoutonTexte"
+        android:textSize="@dimen/texteTailleMoyenneBouton" />
+
+
+
+</LinearLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+
+     <item android:id="@+id/signalement"
+         android:title="Signalement"
+         android:icon="@drawable/signalement"
+         android:orderInCategory="9"
+         app:showAsAction="always"
+         />
+
+     <item android:id="@+id/scoreCourant"
+         android:title="Score"
+         android:orderInCategory="2"
+         app:showAsAction="never"
+         />
+
+     <item android:id="@+id/settings"
+         android:title="Settings"
+         android:orderInCategory="3"
+         app:showAsAction="never"
+         />
+     <item android:id="@+id/acceuil"
+        android:title="Acceuil"
+        android:orderInCategory="0"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/deconnection"
+        android:title="Déconnexion"
+        android:orderInCategory="6"
+        app:showAsAction="never"
+        />
+
+        <item
+            android:id="@+id/boutonPrecedent"
+            android:icon="@drawable/retour"
+            android:orderInCategory="7"
+            android:title="back"
+            app:showAsAction="always" />
+
+        <item
+            android:id="@+id/menufeedback"
+            android:title="feedback"
+            android:orderInCategory="5"
+            app:showAsAction="never"
+            />
+
+
+
+
+
+     </menu>

@@ -1,0 +1,5 @@
+OPENMATH VERSION 2
+
+Dans cette version sera implémenté le 1er jeu et sera composé de 3 interfaces dont:
+	- Menu: composée d'un bouton "Calcul", qui mènera vers l'interface 	- Activité calcul: composé d'un bouton menant jeu de l'application.
+	- Jeu: composée d'un énoncé et d'une interface pour répondre ainsi que d'un bouton valider.

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ecran_principale_colore_rose"
+
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.example.openmath.openmath.controleur.AProposActivite">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scrollView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/texteopenmath"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:text="Open Math"
+        android:textColor="@color/colorTexteEcranPrincipale"
+        android:textSize="@dimen/titreTaille"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+
+    <TextView
+        android:id="@+id/texteversion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Version 2.18.46"
+        android:textColor="@color/colorTexteEcranPrincipale"
+        android:textSize="@dimen/sousTitreTaille"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <TextView
+        android:id="@+id/phrase"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Open Math est une application pour aider des enfants dans l'apprentissage des mathématiques , elle a été crée par une équipe de 4 personnes : Oualid BENAZZOUZ , Alexandre LALLIS , Swabahadine ABDALLAH et Sajjad KHAN ."
+        android:textColor="@color/colorTexteEcranPrincipale"
+        android:textSize="@dimen/texteTaille" />
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:text="2017-2018"
+        android:textColor="@color/colorTexteEcranPrincipale"
+        android:textSize="@dimen/sousTitreTaille" />
+
+</LinearLayout>
