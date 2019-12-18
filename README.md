@@ -1,7 +1,13 @@
-# OpenMath
-
+# Description 
 Réalisé en groupe de 4 OpenMath est une application android pour apprendre au enfants les mathématique.
 
+# Tech
+
+IDE : Android Studio
+VUE : XML
+Back : Java
+
+# Compilation 
 Ce projet est à compiler depuis android-studio ou équivalent. 
 (Pour cela il faut importer le projet et le laisser compiler...). 
 
